@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ly-order" />
+        <module name="ly-cart" />
+        <module name="ly-user-interface" />
+        <module name="ly-page" />
+        <module name="ly-gateway" />
+        <module name="ly-item-interface" />
+        <module name="ly-registry" />
+        <module name="ly-update" />
+        <module name="ly-common" />
+        <module name="ly-sms" />
+        <module name="ly-auth-common" />
+        <module name="ly-user-service" />
+        <module name="ly-search" />
+        <module name="ly-item-service" />
+        <module name="ly-auth-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="leyou" target="1.8" />
+      <module name="ly-auth" target="1.8" />
+      <module name="ly-auth-common" target="1.8" />
+      <module name="ly-auth-service" target="1.8" />
+      <module name="ly-cart" target="1.8" />
+      <module name="ly-common" target="1.8" />
+      <module name="ly-gateway" target="1.8" />
+      <module name="ly-item" target="1.8" />
+      <module name="ly-item-interface" target="1.8" />
+      <module name="ly-item-service" target="1.8" />
+      <module name="ly-order" target="1.8" />
+      <module name="ly-page" target="1.8" />
+      <module name="ly-registry" target="1.8" />
+      <module name="ly-search" target="1.8" />
+      <module name="ly-sms" target="1.8" />
+      <module name="ly-update" target="1.8" />
+      <module name="ly-user" target="1.8" />
+      <module name="ly-user-interface" target="1.8" />
+      <module name="ly-user-service" target="1.8" />
+      <module name="lycart" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ly-auth-common" options="-parameters" />
+      <module name="ly-auth-service" options="-parameters" />
+      <module name="ly-cart" options="-parameters" />
+      <module name="ly-common" options="-parameters" />
+      <module name="ly-gateway" options="-parameters" />
+      <module name="ly-item-interface" options="-parameters" />
+      <module name="ly-item-service" options="-parameters" />
+      <module name="ly-order" options="-parameters" />
+      <module name="ly-page" options="-parameters" />
+      <module name="ly-registry" options="-parameters" />
+      <module name="ly-search" options="-parameters" />
+      <module name="ly-sms" options="-parameters" />
+      <module name="ly-update" options="-parameters" />
+      <module name="ly-user-interface" options="-parameters" />
+      <module name="ly-user-service" options="-parameters" />
+    </option>
+  </component>
+</project>
